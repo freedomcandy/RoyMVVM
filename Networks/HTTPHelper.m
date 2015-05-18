@@ -147,6 +147,8 @@ static HTTPHelper *httpHelper;
     }
     
     CC_LOG_VALUE(error.localizedDescription);
+    
+    
 }
 
 //请求的url

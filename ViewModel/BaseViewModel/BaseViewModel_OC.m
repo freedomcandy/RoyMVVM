@@ -10,4 +10,11 @@
 
 @implementation BaseViewModel_OC
 
+//KVO Test
+- (void)test
+{
+    [self addObserverForKeyPath:@"test" owner:self block:^(id observed, NSDictionary *change) {
+    }];
+}
+
 @end

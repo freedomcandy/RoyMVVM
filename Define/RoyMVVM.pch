@@ -32,6 +32,6 @@
 #import "MJRefresh.h"
 #import "PureLayout.h"
 #import "Masonry.h"
-
-
+//Tools
+#import "NSObject+KVOBlockBinding.h"
 #endif
