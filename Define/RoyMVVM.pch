@@ -1,0 +1,37 @@
+//
+//  RoyMVVM.pch
+//  RoyMVVM
+//
+//  Created by RoyGuo on 15/5/18.
+//  Copyright (c) 2015年 RoyGuo. All rights reserved.
+//
+
+#ifndef RoyMVVM_RoyMVVM_pch
+#define RoyMVVM_RoyMVVM_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//FrameWork
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//Define
+#import "WebConfigure.h"
+#import "SystemDefine.h"
+//Util
+#import "UIView+Positioning.h"
+#import "Util.h"
+#import "UIAlertView+Blocks.h"
+#import "UIColor+HexColor.h"
+//Other
+#import "AppDelegate.h"
+#import "HTTPHelper.h"
+//ThirdParty
+#import "CCLogSystem.h"
+//#import "iToast.h"
+#import "MJRefresh.h"
+#import "PureLayout.h"
+#import "Masonry.h"
+
+
+#endif
