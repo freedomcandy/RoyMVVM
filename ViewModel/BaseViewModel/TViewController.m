@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
     BaseViewController_Swift *bc = [[BaseViewController_Swift alloc] init];
     [bc test2];
-  
+    [bc test3];    
 }
 
 - (void)didReceiveMemoryWarning {

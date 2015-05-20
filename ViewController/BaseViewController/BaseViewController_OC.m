@@ -7,7 +7,7 @@
 //
 
 #import "BaseViewController_OC.h"
-
+#import "SDWebImagePrefetcher.h"
 @interface BaseViewController_OC ()
 
 @end
@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //后台自动下载数组内的图片
+//    [[SDWebImagePrefetcher sharedImagePrefetcher] prefetchURLs:nil];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RoyMVVM-Swift.h"
+
 @interface TViewController : BaseViewController_OC
 
 @end

@@ -22,6 +22,7 @@ class BaseViewController_Swift: BaseViewController_OC {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+         
     }
 
     
@@ -29,6 +30,10 @@ class BaseViewController_Swift: BaseViewController_OC {
         tt="333"
         
         print("tt:\(tt)");
+    }
+    
+    func test3(){
+        
     }
     
     /*
