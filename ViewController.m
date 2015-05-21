@@ -48,9 +48,12 @@
     
 //    [self.view.layer addSublayer:gLayer];
     
-    
+    UIImageView *im = [[UIImageView alloc] initWithFrame:CGRectMake(0, 50, 600, 600)];
+    im.image = [UIImage imageNamed:@"icon_clock"];
+//    [self.view addSubview:im];
 
     
+    self.tTableView.hidden = YES;
     
 }
 
@@ -102,7 +105,7 @@
                                              nil];
     gLayer.frame = CGRectMake(0, 0, cell.size.width, 40);
     
-    [cell.contentView.layer addSublayer:gLayer];
+//    [cell.contentView.layer addSublayer:gLayer];
     
     return cell;
 }

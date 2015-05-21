@@ -23,6 +23,7 @@
 #import "Util.h"
 #import "UIAlertView+Blocks.h"
 #import "UIColor+HexColor.h"
+#import "UIImage+PDFColoredImage.h"  //读取PDF为图片
 //Other
 #import "AppDelegate.h"
 #import "HTTPHelper.h"
